@@ -76,19 +76,18 @@ header nav ul li:last-of-type a {
     letter-spacing: 0.4px;
 }
 
-.section1{
-    background: #181818;
-    background-image: url("../images/section1-bg.png");
-    background-repeat: no-repeat;
-    background-position: center top;
+.main-section{
+    background-image: url("../images/main-section-bg.png");
+    background-position: center center;
     background-size: cover;
+    height: calc(100vh - 90px);
 }
 
-.section1 .sc1-text{
+.main-section .ms-text{
     padding: 466px 0px 61px;
 }
 
-.sc1-text-p1{
+.ms-text-p1{
     color: #C0C0C0;
     text-align: center;
     font-family: 'poppinsregular';
@@ -101,7 +100,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 1px;
 }
 
-.section1 .sc1-text h1{
+.main-section .ms-text h1{
     color: #FFF;
     text-align: center;
     font-family: 'poppinsregular';
@@ -112,7 +111,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 18px;
 }
 
-.sc1-text-p2{
+.ms-text-p2{
     color: #C0C0C0;
     text-align: center;
     font-family: 'poppinsregular';
@@ -124,13 +123,13 @@ header nav ul li:last-of-type a {
     margin: auto;
 }
 
-.sc1-list{
+.ms-list{
     max-width: 1440px;
     margin: auto;
     padding-right: 40px;
 }
 
-.sc1-list ul{
+.ms-list ul{
     display: flex;
     justify-content: right;
     list-style: none;
@@ -139,7 +138,7 @@ header nav ul li:last-of-type a {
     position: relative;
 }
 
-.sc1-list ul li{
+.ms-list ul li{
     color: #FFF;
     font-family: 'poppinsregular';
     font-size: 12px;
@@ -149,21 +148,21 @@ header nav ul li:last-of-type a {
     margin-left: 20px;
 }
 
-.sc1-list ul li:nth-child(1)::before{
+.ms-list ul li:nth-child(1)::before{
     content: url("../images/sc1-list-si-1.svg");
     position: relative;
     top: 6px;
     right: 4px;
 }
 
-.sc1-list ul li:nth-child(2)::before{
+.ms-list ul li:nth-child(2)::before{
     content: url("../images/sc1-list-si-2.svg");
     position: relative;
     top: 6px;
     right: 4px;
 }
 
-.sc1-list ul li:nth-child(3)::before{
+.ms-list ul li:nth-child(3)::before{
     content: url("../images/sc1-list-si-3.svg");
     position: relative;
     top: 6px;
@@ -171,7 +170,7 @@ header nav ul li:last-of-type a {
 }
 
 
-.sc1-list ul li:nth-child(4)::before{
+.ms-list ul li:nth-child(4)::before{
     content: url("../images/sc1-list-si-4.svg");
     position: relative;
     top: 6px;
