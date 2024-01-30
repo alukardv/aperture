@@ -81,13 +81,18 @@ header nav ul li:last-of-type a {
     background-position: center center;
     background-size: cover;
     height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
 }
 
-.main-section .ms-text{
-    padding: 466px 0px 61px;
+.main-section article{
+    max-width: 580px;
+    text-align: center;
 }
 
-.ms-text-p1{
+.main-section article h2{
     color: #C0C0C0;
     text-align: center;
     font-family: 'poppinsregular';
@@ -100,7 +105,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 1px;
 }
 
-.main-section .ms-text h1{
+.main-section article h1{
     color: #FFF;
     text-align: center;
     font-family: 'poppinsregular';
@@ -111,7 +116,7 @@ header nav ul li:last-of-type a {
     margin-bottom: 18px;
 }
 
-.ms-text-p2{
+.main-section article p{
     color: #C0C0C0;
     text-align: center;
     font-family: 'poppinsregular';
@@ -124,21 +129,16 @@ header nav ul li:last-of-type a {
 }
 
 .ms-list{
-    max-width: 1440px;
-    margin: auto;
-    padding-right: 40px;
-}
-
-.ms-list ul{
     display: flex;
-    justify-content: right;
     list-style: none;
     margin-left: 24px;
+    position: absolute;
+    right: 46px;
+    bottom: 46px;
     flex-wrap: wrap;
-    position: relative;
 }
 
-.ms-list ul li{
+.ms-list li{
     color: #FFF;
     font-family: 'poppinsregular';
     font-size: 12px;
@@ -148,31 +148,24 @@ header nav ul li:last-of-type a {
     margin-left: 20px;
 }
 
-.ms-list ul li:nth-child(1)::before{
+.ms-list li:before{
     content: url("../images/sc1-list-si-1.svg");
     position: relative;
     top: 6px;
     right: 4px;
 }
 
-.ms-list ul li:nth-child(2)::before{
+.ms-list li:nth-child(2)::before{
     content: url("../images/sc1-list-si-2.svg");
-    position: relative;
-    top: 6px;
-    right: 4px;
+
 }
 
-.ms-list ul li:nth-child(3)::before{
+.ms-list li:nth-child(3)::before{
     content: url("../images/sc1-list-si-3.svg");
-    position: relative;
-    top: 6px;
-    right: 4px;
+
 }
 
-
-.ms-list ul li:nth-child(4)::before{
+.ms-list li:last-child::before{
     content: url("../images/sc1-list-si-4.svg");
-    position: relative;
-    top: 6px;
-    right: 4px;
+
 }
