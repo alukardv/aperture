@@ -194,31 +194,12 @@ header nav ul li:last-of-type a {
     margin-bottom: 40px;
 }
 
-/* .pc-carousel{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .pc-carousel a{
     display:inline-block;
-    text-align: center;
 }
 
-/* .pc-carousel a{
-    padding: 0 46px;
-} */
-
-/* .pc-carousel a:not(:last-child){
-    margin-right: 109px;
-} */
 .owl-carousel .owl-stage {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* .owl-carousel a {
-    display:inline-block;
-    text-align: center;
-} */
