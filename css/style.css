@@ -196,10 +196,22 @@ header nav ul li:last-of-type a {
 
 .pc-carousel a{
     display:inline-block;
+    text-align: center;
+}
+.test{
+    max-width: 1168px;
 }
 
 .owl-carousel .owl-stage {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.owl-item {
+    text-align: center;
+  }
+
+.owl-item img {
+    display: inline-block;
 }
