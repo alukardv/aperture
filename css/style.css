@@ -205,9 +205,9 @@ header nav ul li:last-of-type a {
     text-align: center;
 }
 
-.pc-carousel a{
+/* .pc-carousel a{
     padding: 0 46px;
-}
+} */
 
 /* .pc-carousel a:not(:last-child){
     margin-right: 109px;
