@@ -16,9 +16,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .wrapper1200{
     max-width: 1200px;
     margin: auto;
+}
+
+body{
+    background: #181818;
 }
 
 header{
@@ -36,9 +41,9 @@ header nav ul{
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-left: 24px;
+    /*margin-left: 24px;*/
     align-items: center;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
 }
 
 header nav ul li{
@@ -198,6 +203,7 @@ header nav ul li:last-of-type a {
     display:inline-block;
     text-align: center;
 }
+
 .test{
     max-width: 1168px;
 }
@@ -210,8 +216,12 @@ header nav ul li:last-of-type a {
 
 .owl-item {
     text-align: center;
-  }
+}
 
 .owl-item img {
     display: inline-block;
+}
+
+.cd-3d-nav-trigger{
+    display: none;
 }
